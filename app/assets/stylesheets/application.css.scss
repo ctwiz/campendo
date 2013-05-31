@@ -12,19 +12,102 @@
  *= require_tree .
  */
 
-.scrolling_body {
+$cmp-bg-main: #32363c;
+$cmp-bg-what: #4f5987;
+$cmp-bg-who: #5d6d8f;
+$cmp-bg-where: #74829f;
+$cmp-bg-how: #91a1b2;
 
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: $cmp-bg-main;
+}
+
+.scrolling_body {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+
+  div { 
+    background-repeat: repeat-x;
+  }
+  .stars {
+    background-image: url('stars.png');
+    height: 500px;
+    top: -300px;
+    position: absolute;
+    width: 100%;
+  }
+  .glow {
+    background-image: url('glow.png');
+    height: 300px;
+    top: 400px;
+    width: 100%;
+    position: absolute;
+  }
+  .sunset-color {
+    background-image: url('sunset-color.png');
+    position: absolute;
+    height: 300px;
+    top: 300px;
+    width: 100%;
+  }
+  .world {
+    background-image: url('world.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    top: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    left: -50px;
+  }
+  .logo {
+    background-image: url('logo.png');
+    position: absolute; 
+    top: 300px;
+    width: 400px;
+    right: 10px;
+    z-index: 1000;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+  .hill-left {
+    background-image: url('hill-left.png');
+    position: absolute;
+    top: 350px;
+    width: 614px;
+    height: 200px;
+    left: -200px;
+  }
+  .hill-right {
+    background-image: url('hill-right.png');
+    position: absolute;
+    width: 614px;
+    height: 200px;
+    top: 355px;
+    right: -250px;
+  }
 }
 
 .info {
-
+  height: 200px;
 }
 
 .what, .who, .where, .how {
 
 }
 
-.what {}
-.who {}
-.where {}
-.how {}
+.what {
+  background-color: $cmp-bg-what;
+}
+.who {
+  background-color: $cmp-bg-who;
+}
+.where {
+  background-color: $cmp-bg-where;
+}
+.how {
+  background-color: $cmp-bg-how;
+}
