@@ -1,22 +1,76 @@
-<div class="scrolling_body" id="skrollr-body">
-  <div class="stars" data-0="top[sqrt]: -300px" data-200="top: 0px"></div>
-  <div class="backup-stars" data-0="top[sqrt]: -0px" data-300="top: -200px"></div>
-  <div class="glow"  data-0="top:  200px" data-100="top: 550px"></div>
-  <div class="sunset-color" data-0="top: 300px" data-200="top:400px"></div>
-  <div class="world" data-0="top[sqrt]: 230px" data-100="top: 180px"></div>
-  <div class="logo" data-0="top[sqrt]: 290px" data-100="top: 330px"></div>
-  <div class="hill-left" data-0="top: 380px" data-200="top: 420px"></div>
-  <div class="hill-right" data-0="top: 355px" data-180="top: 400px"></div>
+<div class="scrolling_body">
+  <div class="sky">
+    <div class="stars" data-0="top[sqrt]: -200px" data-300="top: 250px"></div>
+    <div class="backup-stars" data-0="top[sqrt]: 0px" data-300="top: -300px"></div>
+    <div class="glow"  data-0="top: 300px" data-100="top: 650px"></div>
+    <div class="sunset-color" data-0="top: 400px" data-200="top:550px"></div>
+  </div>
+  <div class="landscape">
+    <div class="world" data-0="top[sqrt]: 330px" data-100="top: 250px"><img src="/assets/world.png"></div>
+    <div class="logo" data-0="top[sqrt]: 390px" data-400="top: 530px"><img src="/assets/logo.png"></div>
+    <div class="logo2" data-0="top[sqrt]: 400px" data-400="top: 560px"><img src="/assets/logo2.png"></div>
+    <div class="hill-left" data-0="top: 480px; left: -230px" data-250="top: 520px; left: -280px;"></div>
+    <div class="hill-right" data-0="top: 455px; right: -250px;" data-180="top: 500px; right: -300px;"></div>
+  </div>
 </div>
-<div class="info what">
 
+
+<div class="menu" id="nav" data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set" style="opacity: 1">
+  <ul>
+    <li><a href="#what">WHAT</a></li>
+    <li><a href="#who">WHO</a></li>
+    <li><a href="#where">WHERE</a></li>
+    <li><a href="#how">HOW</a></li>
+  </ul>
 </div>
-<div class="info who">
 
+<div style="padding:1em; display: none;" data-0="display:none;" data-top-top="display:block;" data-anchor-target="#nav" data-edge-strategy="set">&nbsp;</div>
+
+<div class="info what" id="what">
+  <div class="info_container">
+    <div class="title">WHAT</div>
+    <!--data-0="position: static;" data-60-top-top="position: fixed; top: 120px;" data-100-top-bottom="position: static; top: 0px;" data-anchor-target="#what">WHAT</div>-->
+    <div class="body">
+      <h3>About</h3>
+      <p>
+      Campendo Foundation Series is a product bootcamp. We're distilling the philosophy and practice of building products into an experience we can share with ambitious applicants. It will be an amalgam of practical application, philisophical dissection, reflection, and group participation and discovery.
+      </p>
+      <h3>Format</h3>
+      <p>
+      Eatch batch will meet on Sundays for 8 hours at a time. The schedule will be as follows: 
+      <ul>
+        <li>1 hour lecture/demo</li>
+        <li>2 hour hands on</li>
+        <li>1 hour break for lunch/snacks</li>
+        <li>2 hour hands on</li>
+        <li>1 hour expert philosophical discussion</li>
+        <li>1 hour reflection and group sharing</li>
+      </ul>
+    </p>
+    </div>
+  </div>
 </div>
-<div class="info where">
-
+<div class="info who" id="who">
+  <div class="info_container">
+    <div class="title">WHO</div>
+    <div class="body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum, mi bibendum vehicula aliquet, neque lectus faucibus magna, a imperdiet magna neque sed tellus. Aliquam erat volutpat. Duis lacus tortor, volutpat non convallis in, porta sit amet velit. Nam risus enim, adipiscing ut semper ac, elementum sit amet neque. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin tincidunt dolor non urna luctus ac fringilla tellus interdum. Donec erat ligula, adipiscing id tincidunt lobortis, dictum nec sem. Sed lorem sem, mollis quis dapibus vitae, tempus et lectus. Morbi a mi vitae orci accumsan sagittis non a felis. Nulla mattis, enim sed suscipit dapibus, justo lacus bibendum est, at pharetra nisi enim ut nisi. Sed pharetra facilisis tincidunt.
+    </div>
+  </div>
 </div>
-<div class="info how">
-
+<div class="info where" id="where">
+  <div class="info_container">
+    <div class="title">WHERE</div>
+    <div class="body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum, mi bibendum vehicula aliquet, neque lectus faucibus magna, a imperdiet magna neque sed tellus. Aliquam erat volutpat. Duis lacus tortor, volutpat non convallis in, porta sit amet velit. Nam risus enim, adipiscing ut semper ac, elementum sit amet neque. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin tincidunt dolor non urna luctus ac fringilla tellus interdum. Donec erat ligula, adipiscing id tincidunt lobortis, dictum nec sem. Sed lorem sem, mollis quis dapibus vitae, tempus et lectus. Morbi a mi vitae orci accumsan sagittis non a felis. Nulla mattis, enim sed suscipit dapibus, justo lacus bibendum est, at pharetra nisi enim ut nisi. Sed pharetra facilisis tincidunt.
+    </div>
+  </div>
+</div>
+<div class="info how" id="how">
+  <div class="info_container">
+    <div class="title">HOW</div>
+    <div class="body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum, mi bibendum vehicula aliquet, neque lectus faucibus magna, a imperdiet magna neque sed tellus. Aliquam erat volutpat. Duis lacus tortor, volutpat non convallis in, porta sit amet velit. Nam risus enim, adipiscing ut semper ac, elementum sit amet neque. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin tincidunt dolor non urna luctus ac fringilla tellus interdum. Donec erat ligula, adipiscing id tincidunt lobortis, dictum nec sem. Sed lorem sem, mollis quis dapibus vitae, tempus et lectus. Morbi a mi vitae orci accumsan sagittis non a felis. Nulla mattis, enim sed suscipit dapibus, justo lacus bibendum est, at pharetra nisi enim ut nisi. Sed pharetra facilisis tincidunt.
+    </div>
+  </div>
 </div>

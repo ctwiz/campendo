@@ -17,17 +17,29 @@ $cmp-bg-what: #4f5987;
 $cmp-bg-who: #5d6d8f;
 $cmp-bg-where: #74829f;
 $cmp-bg-how: #91a1b2;
+$cmp-page-width: 1152px;
+$cmp-header-font:"Letter Gothic Std";
 
 body, html {
   padding: 0;
   margin: 0;
   background-color: $cmp-bg-main;
+  font-family: $cmp-header-font;
 }
 
 .scrolling_body {
+  top: 0px;
   position: relative;
   overflow: hidden;
-  min-height: 500px;
+  min-height: 600px;
+
+  .landscape {
+    width: $cmp-page-width;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+
 
   div { 
     background-repeat: repeat-x;
@@ -61,21 +73,26 @@ body, html {
     width: 100%;
   }
   .world {
-    background-image: url('world.png');
-    background-repeat: no-repeat;
     height: 400px;
     top: 200px;
-    width: 100%;
-    position: absolute;
+    position: relative;
     z-index: 1000;
-    left: -50px;
+    left: -210px;
   }
   .logo {
-    background-image: url('logo.png');
-    position: absolute; 
-    top: 300px;
+    position: absolute;
+    top: 0px;
     width: 400px;
-    right: 10px;
+    left: 0px;
+    z-index: 1000;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+  .logo2 {
+    position: absolute;
+    top: 10px;
+    width: 400px;
+    right: -50px;
     z-index: 1000;
     height: 100px;
     background-repeat: no-repeat;
@@ -98,8 +115,72 @@ body, html {
   }
 }
 
+.menu_holder {
+  height: 60px;
+  display: hidden;
+  width: 100%;
+  background-color: red;
+}
+.menu {
+  border-bottom: 1px solid rgb(42, 44, 56);
+  border-top: 1px solid rgb(42, 44, 56);
+  background-color: $cmp-bg-main;
+  width: 100%;
+  text-align: center;
+  font-size: 20pt;
+  vertical-align: text-bottom;
+  a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 7px;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    li {
+      display: inline;
+    }
+    div {
+      float: left;
+      height: 10px;
+      width: 10px;
+      background-color: red;
+      position: relative;
+      overflow: auto;
+    }
+  }
+}
+
 .info {
-  height: 200px;
+  overflow: auto;
+  min-height: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  .info_container {
+    width: $cmp-page-width;
+    margin: 0 auto;
+  }
+  .title {
+    width: 200px;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    border-right: 10px solid rgb(96, 122, 179);
+    font-size: 45pt;
+    color: #FFF;
+    float: left;
+    margin-right: 50px;
+  }
+  .body {
+    overflow: auto;
+    width: 60%;
+    float: left;
+    color: #FFF;
+    font-size: 20pt;
+  }
 }
 
 .what, .who, .where, .how {
