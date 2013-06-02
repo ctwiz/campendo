@@ -51,6 +51,14 @@ body, html {
     position: absolute;
     width: 100%;
   }
+  .shooting-star {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 100;
+    left: 900;
+    overflow: auto;
+  }
   .backup-stars {
     background-image: url('backup-stars.png');
     height: 500px;
