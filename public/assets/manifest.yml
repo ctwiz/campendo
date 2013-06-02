@@ -13,8 +13,12 @@ hill-right.png: hill-right-4004584a6ec3744eb1bb8c7747b28bb2.png
 hill-right/index.png: hill-right-4004584a6ec3744eb1bb8c7747b28bb2.png
 logo.png: logo-b15035c8a807ee91a602243c71a8cdff.png
 logo/index.png: logo-b15035c8a807ee91a602243c71a8cdff.png
+logo2.png: logo2-6b173e4657809e73ca5ad277509bc236.png
+logo2/index.png: logo2-6b173e4657809e73ca5ad277509bc236.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+shooting-star.png: shooting-star-2dc8718a847a69383c4a136ff933ce77.png
+shooting-star/index.png: shooting-star-2dc8718a847a69383c4a136ff933ce77.png
 stars.png: stars-33ef25cebf4752026999031d8ae60e2a.png
 stars/index.png: stars-33ef25cebf4752026999031d8ae60e2a.png
 sunset-color.png: sunset-color-a73268b209dc4ff356e20665ae63980f.png
@@ -25,7 +29,7 @@ world.png: world-f61a64bf4cc709b765feb8b1c6f4eb29.png
 world/index.png: world-f61a64bf4cc709b765feb8b1c6f4eb29.png
 application.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
 application/index.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application.css: application-0536279052a94e21ca8df1accf3c1885.css
-application/index.css: application-0536279052a94e21ca8df1accf3c1885.css
+application.css: application-6691a4ff06eb9b8740dd75a5e5c8797d.css
+application/index.css: application-6691a4ff06eb9b8740dd75a5e5c8797d.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
