@@ -199,3 +199,18 @@ body, html {
 .how {
   background-color: $cmp-bg-how;
 }
+
+table.batch {
+  margin: 0 auto;
+  font-size: 17pt;
+  td { padding: 10px; }
+  td:not(.batch) { text-align: right; }
+  td.batch {
+    text-align: center;
+    background-color: $cmp-bg-who;
+  }
+  td.break {
+    background-color: rgb(89, 95, 155);
+    text-align: center;
+  }
+}
