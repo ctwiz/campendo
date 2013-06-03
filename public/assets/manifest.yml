@@ -29,7 +29,7 @@ world.png: world-f61a64bf4cc709b765feb8b1c6f4eb29.png
 world/index.png: world-f61a64bf4cc709b765feb8b1c6f4eb29.png
 application.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
 application/index.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application.css: application-6691a4ff06eb9b8740dd75a5e5c8797d.css
-application/index.css: application-6691a4ff06eb9b8740dd75a5e5c8797d.css
+application.css: application-f020a384584e9903b0a8c52e09dd9970.css
+application/index.css: application-f020a384584e9903b0a8c52e09dd9970.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map

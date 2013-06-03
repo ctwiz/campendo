@@ -197,9 +197,39 @@ body, html {
 
 .what {
   background-color: $cmp-bg-what;
+  table.batch {
+    margin: 0 auto;
+    font-size: 17pt;
+    td { padding: 10px; }
+    td:not(.batch) { text-align: right; }
+    td.batch {
+      text-align: center;
+      background-color: $cmp-bg-who;
+    }
+    td.break {
+      background-color: rgb(89, 95, 155);
+      text-align: center;
+    }
+  }
 }
 .who {
   background-color: $cmp-bg-who;
+  .person {
+    font-size: 12pt;
+    padding: 10px;
+    overflow: auto;
+    float: left;
+    text-align: center;
+    .photo img {
+      border-radius: 100px;
+    }
+    .name {
+
+    }
+    .area {
+      font-size: 10pt;
+    }
+  }
 }
 .where {
   background-color: $cmp-bg-where;
@@ -208,17 +238,4 @@ body, html {
   background-color: $cmp-bg-how;
 }
 
-table.batch {
-  margin: 0 auto;
-  font-size: 17pt;
-  td { padding: 10px; }
-  td:not(.batch) { text-align: right; }
-  td.batch {
-    text-align: center;
-    background-color: $cmp-bg-who;
-  }
-  td.break {
-    background-color: rgb(89, 95, 155);
-    text-align: center;
-  }
-}
+
