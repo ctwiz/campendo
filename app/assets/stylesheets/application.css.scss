@@ -233,6 +233,9 @@ body, html {
 }
 .where {
   background-color: $cmp-bg-where;
+  iframe {
+    float: left;
+  }
 }
 .how {
   background-color: $cmp-bg-how;
