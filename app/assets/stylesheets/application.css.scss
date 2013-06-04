@@ -24,7 +24,7 @@ $cmp-header-font: "Letter Gothic Std";
   font-family: 'Letter Gothic Std';
   src: url('LetterGothicStd.otf');
   src: local('Letter Gothic Std'), local('Letter Gothic'),
-    url("LetterGothicStd.otf") format("opentype"),
+    url("LetterGothicStd.otf") format("opentype")
 }
 
 body, html {
@@ -93,25 +93,25 @@ body, html {
     top: 300px;
     position: relative;
     z-index: 1000;
-    left: -175px;
+    left: -130px;
   }
   .logo {
     position: absolute;
-    top: 0px;
+    top: 375px;
     width: 400px;
-    left: 0px;
+    left: 20px;
     z-index: 1000;
     height: 100px;
     background-repeat: no-repeat;
   }
   .logo2 {
     position: absolute;
-    top: 10px;
+    top: 435px;
     width: 400px;
-    right: -50px;
     z-index: 1000;
     height: 100px;
     background-repeat: no-repeat;
+    left: 20px;
   }
   .hill-left {
     background-image: url('hill-left.png');
