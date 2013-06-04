@@ -32,7 +32,8 @@ body, html {
   position: relative;
   overflow: hidden;
   min-height: 600px;
-
+  background-image: url('noise.png');
+  background-position: fixed;
   .landscape {
     width: $cmp-page-width;
     height: 500px;
@@ -187,12 +188,12 @@ body, html {
     width: 60%;
     float: left;
     color: #FFF;
-    font-size: 20pt;
+    font-size: 14pt;
   }
 }
 
 .what, .who, .where, .how {
-
+  background-image: url('noise.png');
 }
 
 .what {
@@ -215,7 +216,6 @@ body, html {
 .who {
   background-color: $cmp-bg-who;
   .person {
-    font-size: 12pt;
     padding: 10px;
     overflow: auto;
     float: left;
@@ -224,7 +224,7 @@ body, html {
       border-radius: 100px;
     }
     .name {
-
+      font-size: 16pt;
     }
     .area {
       font-size: 10pt;
