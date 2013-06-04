@@ -35,7 +35,7 @@ world.png: world-e6ce4a66dcd5f64d5d598fb520258ccb.png
 world/index.png: world-e6ce4a66dcd5f64d5d598fb520258ccb.png
 application.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
 application/index.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application.css: application-c32fb393486664beb8e7a04b25642dab.css
-application/index.css: application-c32fb393486664beb8e7a04b25642dab.css
+application.css: application-e5a4115fce075fb7ebcadf3440e30ecb.css
+application/index.css: application-e5a4115fce075fb7ebcadf3440e30ecb.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
