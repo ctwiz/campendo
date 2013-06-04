@@ -18,7 +18,14 @@ $cmp-bg-who: #5d6d8f;
 $cmp-bg-where: #74829f;
 $cmp-bg-how: #91a1b2;
 $cmp-page-width: 1152px;
-$cmp-header-font:"Letter Gothic Std";
+$cmp-header-font: "Letter Gothic Std";
+
+@font-face {
+  font-family: 'Letter Gothic Std';
+  src: url('LetterGothicStd.otf');
+  src: local('Letter Gothic Std'), local('Letter Gothic'),
+    url("LetterGothicStd.otf") format("opentype"),
+}
 
 body, html {
   padding: 0;
