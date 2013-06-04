@@ -1,4 +1,6 @@
 ---
+LetterGothicStd.otf: LetterGothicStd-76257e18b4dc6bde9343da2c8d5c5c82.otf
+LetterGothicStd/index.otf: LetterGothicStd-76257e18b4dc6bde9343da2c8d5c5c82.otf
 Techendo square logo.png: Techendo square logo-312cf6b36239381344a255873efbf507.png
 Techendo square logo/index.png: Techendo square logo-312cf6b36239381344a255873efbf507.png
 Tehendo-logo.png: Tehendo-logo-a143a5a6c4c8d7f9b0d4846476bf7991.png
@@ -7,14 +9,18 @@ backup-stars.png: backup-stars-beef0cf68605475fb710e17b961d5f9f.png
 backup-stars/index.png: backup-stars-beef0cf68605475fb710e17b961d5f9f.png
 glow.png: glow-ae120658fc764f3238b7b8a968818029.png
 glow/index.png: glow-ae120658fc764f3238b7b8a968818029.png
-hill-left.png: hill-left-aa20ff04dfae9615ae2690f11199f966.png
-hill-left/index.png: hill-left-aa20ff04dfae9615ae2690f11199f966.png
-hill-right.png: hill-right-4004584a6ec3744eb1bb8c7747b28bb2.png
-hill-right/index.png: hill-right-4004584a6ec3744eb1bb8c7747b28bb2.png
+hill-left.png: hill-left-c8ef9a9bebc1f1ce67160b00668a7290.png
+hill-left/index.png: hill-left-c8ef9a9bebc1f1ce67160b00668a7290.png
+hill-right.png: hill-right-4265617ec75e9dbdb2d54f8fa7a222cc.png
+hill-right/index.png: hill-right-4265617ec75e9dbdb2d54f8fa7a222cc.png
 logo.png: logo-b15035c8a807ee91a602243c71a8cdff.png
 logo/index.png: logo-b15035c8a807ee91a602243c71a8cdff.png
 logo2.png: logo2-6b173e4657809e73ca5ad277509bc236.png
 logo2/index.png: logo2-6b173e4657809e73ca5ad277509bc236.png
+noise.png: noise-a91b32693b2b674ab2ce3081abe3981e.png
+noise/index.png: noise-a91b32693b2b674ab2ce3081abe3981e.png
+pyramid.jpg: pyramid-999141e63278b063d52b43636f2c2448.jpg
+pyramid/index.jpg: pyramid-999141e63278b063d52b43636f2c2448.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 shooting-star.png: shooting-star-2dc8718a847a69383c4a136ff933ce77.png
@@ -25,11 +31,11 @@ sunset-color.png: sunset-color-a73268b209dc4ff356e20665ae63980f.png
 sunset-color/index.png: sunset-color-a73268b209dc4ff356e20665ae63980f.png
 techendo-logo-fb.png: techendo-logo-fb-7443c20ed416f3fd05d8a54e03e3f747.png
 techendo-logo-fb/index.png: techendo-logo-fb-7443c20ed416f3fd05d8a54e03e3f747.png
-world.png: world-f61a64bf4cc709b765feb8b1c6f4eb29.png
-world/index.png: world-f61a64bf4cc709b765feb8b1c6f4eb29.png
+world.png: world-e6ce4a66dcd5f64d5d598fb520258ccb.png
+world/index.png: world-e6ce4a66dcd5f64d5d598fb520258ccb.png
 application.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
 application/index.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application.css: application-f020a384584e9903b0a8c52e09dd9970.css
-application/index.css: application-f020a384584e9903b0a8c52e09dd9970.css
+application.css: application-0d40d8a1bb50f4ea742e54c3dc619f03.css
+application/index.css: application-0d40d8a1bb50f4ea742e54c3dc619f03.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
