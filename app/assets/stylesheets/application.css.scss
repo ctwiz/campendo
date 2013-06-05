@@ -21,12 +21,15 @@ $cmp-page-width: 1152px;
 $cmp-header-font: "Letter Gothic Std";
 $cmp-highlight-color: rgb(245, 219, 166);
 
+.clearfix {
+  clear: both;
+}
+
 h3 { 
   font-size: 20pt; 
   text-shadow: 1px 0px 3px rgb(56, 55, 55);
   color: $cmp-highlight-color;
 }
-
 
 
 @font-face {
