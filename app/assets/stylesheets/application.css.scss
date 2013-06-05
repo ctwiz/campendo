@@ -19,6 +19,15 @@ $cmp-bg-where: #74829f;
 $cmp-bg-how: #91a1b2;
 $cmp-page-width: 1152px;
 $cmp-header-font: "Letter Gothic Std";
+$cmp-highlight-color: rgb(245, 219, 166);
+
+h3 { 
+  font-size: 20pt; 
+  text-shadow: 1px 0px 3px rgb(56, 55, 55);
+  color: $cmp-highlight-color;
+}
+
+
 
 @font-face {
   font-family: 'Letter Gothic Std';
@@ -30,6 +39,7 @@ $cmp-header-font: "Letter Gothic Std";
 body, html {
   padding: 0;
   margin: 0;
+  font-size: 12pt;
   background-color: $cmp-bg-main;
   font-family: $cmp-header-font;
 }
@@ -180,6 +190,7 @@ body, html {
     margin: 0 auto;
   }
   .title {
+    text-shadow: 1px 0px 3px #383737;
     padding-left: 10px;
     width: 180px;
     text-align: right;
@@ -231,8 +242,11 @@ body, html {
     text-align: center;
     .photo img {
       border-radius: 100px;
+      background-color: $cmp-bg-main;
     }
     .name {
+      color: $cmp-highlight-color;
+      text-shadow: 1px 0px 3px rgb(56, 55, 55);
       font-size: 16pt;
     }
     .area {
@@ -243,11 +257,43 @@ body, html {
 .where {
   background-color: $cmp-bg-where;
   iframe {
+    border: 1px solid rgb(134, 134, 134);
     float: left;
+    border-radius: 5px;
   }
 }
 .how {
   background-color: $cmp-bg-how;
 }
 
-
+.application {
+  background-color: rgb(237, 240, 247);
+  border: 1px solid rgb(134, 134, 134);
+  padding: 20px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  .question_block {
+    margin-bottom: 20px;
+    .question {
+      font-size: 16pt;
+      color: rgb(77, 77, 77);
+      margin-bottom: 10px;
+    }
+    .answer {
+      textarea {
+        width: 650px;
+        height: 100px;
+      }
+    }
+  }
+  .submit {
+    text-align: right;
+    input[type="submit"] {
+      font-size: 16pt;
+      background-color: #6fafbb;
+      color: #FFF;
+      border: 1px solid rgb(89, 89, 90);
+      text-shadow: 0px 1px #000;
+    }
+  }
+}
