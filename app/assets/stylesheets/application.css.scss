@@ -224,10 +224,12 @@ body, html {
     td { padding: 10px; }
     td:not(.batch) { text-align: right; }
     td.batch {
+      text-shadow: 1px 0px 3px rgb(56, 55, 55);
       text-align: center;
       background-color: $cmp-bg-who;
     }
     td.break {
+      text-shadow: 1px 0px 3px rgb(56, 55, 55);
       background-color: rgb(89, 95, 155);
       text-align: center;
     }
@@ -243,6 +245,8 @@ body, html {
     .photo img {
       border-radius: 100px;
       background-color: $cmp-bg-main;
+      border: 1px solid rgb(46, 46, 46);
+      box-shadow: 1px 0px 4px rgb(17, 60, 80);
     }
     .name {
       color: $cmp-highlight-color;
@@ -269,7 +273,7 @@ body, html {
 .application {
   background-color: rgb(237, 240, 247);
   border: 1px solid rgb(134, 134, 134);
-  padding: 20px 10px;
+  padding: 20px 10px 10px 10px;
   border-radius: 5px;
   margin-right: 10px;
   .question_block {
@@ -290,10 +294,13 @@ body, html {
     text-align: right;
     input[type="submit"] {
       font-size: 16pt;
-      background-color: #6fafbb;
+      background-color: rgb(130, 129, 158);
+      background-image: url('/assets/noise.png');
       color: #FFF;
       border: 1px solid rgb(89, 89, 90);
       text-shadow: 0px 1px #000;
+      border-radius: 3px;
+      height: 40px;
     }
   }
 }
