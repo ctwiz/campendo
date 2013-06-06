@@ -44,6 +44,7 @@ h3 {
 }
 
 body, html {
+  -webkit-overflow-scrolling: touch;
   padding: 0;
   margin: 0;
   font-size: 12pt;
@@ -58,6 +59,7 @@ body, html {
   top: 0px;
   position: relative;
   overflow: hidden;
+  -webkit-overflow-scrolling: touch;
   min-height: 600px;
   background-image: url('noise.png');
   background-attachment:fixed;
