@@ -13,7 +13,7 @@
     <div class="hill-left" data-0="top: 480px; left: -230px" data-250="top: 520px; left: -280px;"></div>
     <div class="hill-right" data-0="top: 455px; right: -250px;" data-180="top: 500px; right: -300px;"></div>
   </div>
-</div>
+</div><!-- /top -->
 
 <div class="menu" id="nav" data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set" style="opacity: 1">
   <ul>
@@ -23,236 +23,32 @@
     <li class="where"><a href="#where">WHERE</a></li>
     <li class="apply"><a href="#apply">APPLY</a></li>
   </ul>
-</div>
+</div><!-- /menu -->
 
 <div style="padding:1em; display: none;" data-0="display:none;" data-top-top="display:block;" data-anchor-target="#nav" data-edge-strategy="set">&nbsp;</div>
 
 <div class="info what" id="what">
   <div class="info_container">
     <div class="title">WHAT</div>
-    <!--data-0="position: static;" data-60-top-top="position: fixed; top: 120px;" data-100-top-bottom="position: static; top: 0px;" data-anchor-target="#what">WHAT</div>-->
-    <div class="body">
-      <h3>About</h3>
-      <p>
-      Campendo Foundation Series is a <span class="highlight">product and leadership program</span>. We're distilling the philosophy and practice of building software products into an experience we can share with ambitious, autodidactic applicants.
-      </p>
-      <p>It will be an amalgam of practical application, philisophical dissection, reflection, and group participation and discovery.</p>
-      <p>The primary language and framework we'll be learning along the way is <span class="highlight">ruby on rails</span>. We'll start with a photoshop image, move through the entire building process, and finally ending up with a launched prototype.</p>
-
-      <h3>Class size</h3>
-      Each <span class="highlight">class size will only ever have 8 participants</span>. It's important to everyone involved that each participant gets the attention they need so that the group as a whole becomes well integrated and successful.
-      <h3>Batch Format</h3>
-      Campendo will graduate <span class="highlight">three batches a year</span>. Each batch lasts three months, followed by a month long break. The schedule looks like this: 
-      <p>
-      <table class="batch">
-        <tr>
-          <td>
-            January
-          </td>
-          <td class="batch" rowspan="3">Winter class</td>
-        </tr>
-        <tr>
-          <td>
-            February
-          </td>
-        </tr>
-        <tr>
-          <td>
-            March
-          </td>
-        </tr>
-        <tr>
-          <td>
-            April
-          </td>
-          <td class="break">Break</td>
-        </tr>
-        <tr>
-          <td>
-            May
-          </td>
-          <td class="batch" rowspan="3">Spring Class</td>
-        </tr>
-        <tr>
-          <td>
-            June
-          </td>
-        </tr>
-        <tr>
-          <td>
-            July
-          </td>
-        </tr>
-        <tr>
-          <td>
-            August
-          </td>
-          <td class="break">
-            Break
-          </td>
-        </tr>
-        <tr>
-          <td>
-            September
-          </td>
-          <td class="batch" rowspan="3">
-            Fall Class
-          </td>
-        </tr>
-        <tr>
-          <td>
-            October
-          </td>
-        </tr>
-        <tr>
-          <td>
-            November
-          </td>
-        </tr>
-        <tr>
-          <td>
-            December
-          </td>
-          <td class="break">
-            Break
-          </td>
-        </tr>
-      </table>
-      </p>
-      <h3>Course Format</h3>
-      <p>
-      Eatch batch will meet on <span class="highlight">Sundays for 8 hours</span> at a time. The schedule will be as follows: 
-      </p>
-      <ul>
-        <li>1 hour lecture and demo</li>
-        <li>2 hour hands on</li>
-        <li>1 hour break for lunch/snacks</li>
-        <li>2 hour hands on</li>
-        <li>1 hour expert philosophical discussion</li>
-        <li>1 hour reflection and group sharing</li>
-      </ul>
-      <h3>Weekly Format</h3>
-      <p>When we're not meeting on Sundays we'll have an around the clock <span class="highlight">open chat channel on IRC</span> where we will all help one another. </p>
-      <p>Campendo instructors and helpers will also have scheduled office hours where they will certainly be available to offer any help you may need. A group meetup each evening online is also being considered.</p>
-    </div>
+    <%=render 'shared/what' %>
   </div>
 </div>
+
 <div class="info who" id="who">
   <div class="info_container">
     <div class="title">WHO</div>
-    <div class="body">
-      <p>We are assembling people that have a need to deeply understand their craft and want to share that <span class="highlight">insight</span> with you.</p>
-      <h3>Mentors</h3>
-      <div class="clearfix"></div>
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">Dan Gailey</div>
-        <div class="area">Web Applications</div>
-      </div><!-- /person -->
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">Jane Doe</div>
-        <div class="area">Venture Capital</div>
-      </div><!-- /person -->
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">John Doe</div>
-        <div class="area">Design</div>
-      </div><!-- /person -->
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">John Doe</div>
-        <div class="area">Marketing</div>
-      </div><!-- /person -->
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">Jane Doe</div>
-        <div class="area">Human-Computer<br>Interaction</div>
-      </div><!-- /person -->
-      <div class="clearfix"></div>
-      <br>
-      <h3>Partners</h3>
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">E.Ventures</div>
-        <div class="area"></div>
-      </div><!-- /person -->
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">Google Ventures</div>
-        <div class="area"></div>
-      </div><!-- /person -->
-      <div class="person">
-        <div class="photo"><img src="/assets/noise.png"></div>
-        <div class="name">Facebook</div>
-        <div class="area"></div>
-      </div><!-- /person -->
-
-
-    </div>
+    <%=render 'shared/who' %>
   </div>
 </div>
 <div class="info where" id="where">
   <div class="info_container">
     <div class="title">WHERE</div>
-    <div class="body">
-      <p>Each Campendo class will be held in the <span class="highlight">43rd floor of the Transamerica Pyramid</span> in San Francisco, California's Financial District. We'll be in a meeting room overlooking the entirety of the city's inspiring landscape. Snacks and drinks will also be provided.<p>
-      <p>
-      <iframe width="680" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Transamerica+Pyramid&amp;aq=0&amp;oq=transameri&amp;sll=36.914764,-119.311523&amp;sspn=12.322155,23.269043&amp;ie=UTF8&amp;hq=&amp;hnear=Transamerica+Pyramid&amp;t=m&amp;z=16&amp;ll=37.7980,-122.402786&amp;output=embed"></iframe>
-      </p>
-    </div>
+    <%=render 'shared/where' %>
   </div>
 </div>
 <div class="info apply" id="apply">
   <div class="info_container">
     <div class="title">APPLY</div>
-    <div class="body">
-      <p><span class="highlight">Take some time and think</span> about these questions before you submit your answers. These questions are to help you reflect and help us better understand you.</p>
-      <div class="application">
-        <div class="question_block">
-          <div class="question">First and last name</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Email, twitter, blog</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What makes Campendo appealing to you?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What is your vision of the future?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What's the story of how you got here?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Why is it important for you to succeed?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Are you afraid of failure? Why?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Have you ever risked everything to achieve something? What was it and why?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What is an insight that you've noticed about life or people that not many others have noticed?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Describe your perfect supportive learning environment.</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="submit"> 
-          <input type="submit" value="Send Application">
-        </div>
-      </div><!-- /application -->
-    </div>
+    <%=render 'shared/apply' %>
   </div>
 </div>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Campendo</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <title>Campendo - Mobile</title>
+  <%= stylesheet_link_tag    "application", "mobile", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <script language=javascript>
@@ -14,9 +14,9 @@
   </script>
 </head>
 <body>
-<div id="skrollr-body">
-<%= yield %>
-</div>
+  <div class="mobile">
+    <%= yield %>
+  </div>
 
 </body>
 </html>
