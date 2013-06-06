@@ -49,6 +49,9 @@ body, html {
   font-size: 12pt;
   background-color: $cmp-bg-main;
   font-family: $cmp-header-font;
+  margin-bottom: 1px;
+  height: 100%;
+  min-height: 100%;
 }
 
 .scrolling_body {
