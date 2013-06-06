@@ -233,6 +233,7 @@ body, html {
 
 #what, #who, #where, #apply {
   background-image: url('noise.png');
+  overflow: scroll;
 }
 
 #what {
@@ -328,10 +329,8 @@ body, html {
 /* FOR MOBILE SITE */
 .mobile {
   color: #FFF !important;
-  overflow: scroll;;
+  overflow: scroll !important;
   .top {
-    width:100%;
-    overflow: hidden;
     background-color: $cmp-bg-main;
     background-image: url('noise.png');
     height: 220px;
@@ -368,7 +367,7 @@ body, html {
       top: 77px;
       position: absolute;
       img {
-        width: 400px;
+        width: 100%;
       }
     }
   }
