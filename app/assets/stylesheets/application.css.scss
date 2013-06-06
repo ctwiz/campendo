@@ -162,6 +162,18 @@ body, html {
   text-align: center;
   font-size: 20pt;
   vertical-align: text-bottom;
+  .logo_small:hover {
+    opacity: 1;
+  }
+  .logo_small {
+    position: relative;
+    top: 10px;
+    opacity: .8;
+    a {
+      padding: 0px;
+      margin: 0px;
+    }
+  }
   a {
     display: inline-block;
     color: #FFF;

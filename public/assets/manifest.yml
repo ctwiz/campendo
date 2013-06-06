@@ -17,6 +17,8 @@ logo.png: logo-b15035c8a807ee91a602243c71a8cdff.png
 logo/index.png: logo-b15035c8a807ee91a602243c71a8cdff.png
 logo2.png: logo2-6b173e4657809e73ca5ad277509bc236.png
 logo2/index.png: logo2-6b173e4657809e73ca5ad277509bc236.png
+logo_small.png: logo_small-4aa0ab18dd54878e9959e23d313295e2.png
+logo_small/index.png: logo_small-4aa0ab18dd54878e9959e23d313295e2.png
 noise.png: noise-a91b32693b2b674ab2ce3081abe3981e.png
 noise/index.png: noise-a91b32693b2b674ab2ce3081abe3981e.png
 pyramid.jpg: pyramid-999141e63278b063d52b43636f2c2448.jpg
@@ -37,7 +39,7 @@ world2.png: world2-f0060745410a9784677b213facef7c4c.png
 world2/index.png: world2-f0060745410a9784677b213facef7c4c.png
 application.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
 application/index.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application.css: application-3754e994d6893f506d1661f274a435a4.css
-application/index.css: application-3754e994d6893f506d1661f274a435a4.css
+application.css: application-8fa5176eb98452016d3dbf5153d48c90.css
+application/index.css: application-8fa5176eb98452016d3dbf5153d48c90.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
