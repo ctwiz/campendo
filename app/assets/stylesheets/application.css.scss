@@ -44,15 +44,11 @@ h3 {
 }
 
 body, html {
-  -webkit-overflow-scrolling: touch;
   padding: 0;
   margin: 0;
   font-size: 12pt;
-  background-color: $cmp-bg-main;
   font-family: $cmp-header-font;
   margin-bottom: 1px;
-  height: 100%;
-  min-height: 100%;
 }
 
 .scrolling_body {
@@ -333,7 +329,10 @@ body, html {
 
 /* FOR MOBILE SITE */
 .mobile {
+  height: 100%;
   color: #FFF !important;
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
   .top {
     background-color: $cmp-bg-main;
     background-image: url('noise.png');
