@@ -7,6 +7,8 @@ Tehendo-logo.png: Tehendo-logo-a143a5a6c4c8d7f9b0d4846476bf7991.png
 Tehendo-logo/index.png: Tehendo-logo-a143a5a6c4c8d7f9b0d4846476bf7991.png
 backup-stars.png: backup-stars-beef0cf68605475fb710e17b961d5f9f.png
 backup-stars/index.png: backup-stars-beef0cf68605475fb710e17b961d5f9f.png
+dan.jpg: dan-594bcc5b1dc5f795273b33bb91cfb3e2.jpg
+dan/index.jpg: dan-594bcc5b1dc5f795273b33bb91cfb3e2.jpg
 glow.png: glow-ae120658fc764f3238b7b8a968818029.png
 glow/index.png: glow-ae120658fc764f3238b7b8a968818029.png
 hill-left.png: hill-left-c8ef9a9bebc1f1ce67160b00668a7290.png
@@ -25,6 +27,8 @@ pyramid.jpg: pyramid-999141e63278b063d52b43636f2c2448.jpg
 pyramid/index.jpg: pyramid-999141e63278b063d52b43636f2c2448.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+sfhn.jpg: sfhn-27aa47bd1812d680bcc3d13b46666472.jpg
+sfhn/index.jpg: sfhn-27aa47bd1812d680bcc3d13b46666472.jpg
 shooting-star.png: shooting-star-2dc8718a847a69383c4a136ff933ce77.png
 shooting-star/index.png: shooting-star-2dc8718a847a69383c4a136ff933ce77.png
 stars.png: stars-33ef25cebf4752026999031d8ae60e2a.png
@@ -33,13 +37,13 @@ sunset-color.png: sunset-color-a73268b209dc4ff356e20665ae63980f.png
 sunset-color/index.png: sunset-color-a73268b209dc4ff356e20665ae63980f.png
 techendo-logo-fb.png: techendo-logo-fb-7443c20ed416f3fd05d8a54e03e3f747.png
 techendo-logo-fb/index.png: techendo-logo-fb-7443c20ed416f3fd05d8a54e03e3f747.png
+techendo.png: techendo-312cf6b36239381344a255873efbf507.png
+techendo/index.png: techendo-312cf6b36239381344a255873efbf507.png
 world.png: world-e6ce4a66dcd5f64d5d598fb520258ccb.png
 world/index.png: world-e6ce4a66dcd5f64d5d598fb520258ccb.png
 world2.png: world2-f0060745410a9784677b213facef7c4c.png
 world2/index.png: world2-f0060745410a9784677b213facef7c4c.png
-application.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application/index.js: application-4cd56d90ad44074bcb62fb9af52d114b.js
-application.css: application-d35190e6fb850a831e1e36dd97fb8e11.css
-application/index.css: application-d35190e6fb850a831e1e36dd97fb8e11.css
+application.css: application-91c99861fc2e8781bba0f4a734cd1490.css
+application/index.css: application-91c99861fc2e8781bba0f4a734cd1490.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
