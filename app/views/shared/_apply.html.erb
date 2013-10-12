@@ -1,49 +1,51 @@
     <div class="body">
-      <p><span class="highlight">Take some time and think</span> about these questions before you submit your answers. These questions are to help you reflect and help us better understand you.</p>
-      <div class="application">
-        <div class="question_block">
-          <div class="question">First and last name</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Email, twitter, blog</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What makes Campendo appealing to you?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What is your vision of the future?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What's the story of how you got here?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Why is it important for you to succeed?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Are you afraid of failure? Why?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Have you ever risked everything to achieve something? What was it and why?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">What is an insight that you've noticed about life or people that not many others have noticed?</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="question_block">
-          <div class="question">Describe your perfect supportive learning environment.</div>
-          <div class="answer"><textarea></textarea></div>
-        </div><!-- question_block -->
-        <div class="submit"> 
-          <input type="submit" value="Send Application">
-        </div>
-      </div><!-- /application -->
+      <%=form_for @application do |a| %>
+        <p><span class="highlight">Take some time and think</span> about these questions before you submit your answers. These questions are to help you reflect and help us better understand you.</p>
+        <div class="application">
+          <div class="question_block">
+            <div class="question">1. First and last name</div>
+            <div class="answer"><%=a.text_area :q1%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">2. Email, twitter, blog</div>
+            <div class="answer"><%=a.text_area :q2%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">3. What makes Campendo appealing to you?</div>
+            <div class="answer"><%=a.text_area :q3%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">4. What is your vision of the future?</div>
+            <div class="answer"><%=a.text_area :q4%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">5. What's the story of how you got here?</div>
+            <div class="answer"><%=a.text_area :q5%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">6. Why is it important for you to succeed?</div>
+            <div class="answer"><%=a.text_area :q6%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">7. Are you afraid of failure? Why?</div>
+            <div class="answer"><%=a.text_area :q7%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">8. Have you ever risked everything to achieve something? What was it and why?</div>
+            <div class="answer"><%=a.text_area :q8%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">9. What is an insight that you've noticed about life or people that not many others have noticed?</div>
+            <div class="answer"><%=a.text_area :q9%></div>
+          </div><!-- question_block -->
+          <div class="question_block">
+            <div class="question">10. Describe your perfect supportive learning environment.</div>
+            <div class="answer"><%=a.text_area :q10%></div>
+          </div><!-- question_block -->
+          <div class="submit"> 
+            <%=a.submit "Send Application" %>
+          </div>
+        </div><!-- /application -->
+     <% end %>
     </div>
 
