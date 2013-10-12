@@ -165,6 +165,8 @@ body, html {
   text-align: center;
   font-size: 20pt;
   vertical-align: text-bottom;
+  z-index:1000;
+
   .logo_small:hover {
     opacity: 1;
   }
