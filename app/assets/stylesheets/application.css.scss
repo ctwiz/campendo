@@ -59,6 +59,8 @@ body, html {
   min-height: 600px;
   background-image: url('noise.png');
   background-attachment:fixed;
+  background-color: rgb(80, 80, 100);
+
   .landscape {
     width: $cmp-page-width;
     height: 500px;
